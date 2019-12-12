@@ -6,7 +6,7 @@
 /*   By: mabriand <mabriand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/04 15:13:43 by mabriand          #+#    #+#             */
-/*   Updated: 2019/12/12 10:54:04 by mabriand         ###   ########.fr       */
+/*   Updated: 2019/12/12 14:46:38 by mabriand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ size_t		ft_strlen(char *s)
 }
 
 /*
-** Cherche la première occurence de '\n' dans la chaîne de caract¡eres s.
+** Cherche la première occurence de '\n' dans la chaîne de caractères s.
 ** =========
 ** #1 : une chaîne de caractères.
 ** =========
@@ -114,7 +114,7 @@ char		*ft_strndup(char *s1, size_t size)
 ** =========
 ** #1 et #2: des chaines de caractères.
 ** =========
-** Retourne la chaîne de caract¡eres résultante.
+** Retourne la chaîne de caractères résultante.
 */
 
 char		*ft_strjoin(char *s1, char *s2)

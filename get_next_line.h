@@ -6,7 +6,7 @@
 /*   By: mabriand <mabriand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/22 17:27:21 by mabriand          #+#    #+#             */
-/*   Updated: 2019/12/12 11:08:17 by mabriand         ###   ########.fr       */
+/*   Updated: 2019/12/12 14:47:38 by mabriand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,11 @@
 # include <fcntl.h>
 
 /*
-**STRUCURE
+** STRUCURE
 */
 
 /*
-**PROTOTYPE
+** PROTOTYPE
 */
 int			get_next_line(int fd, char **line);
 size_t		ft_strlen(char *s);

@@ -6,14 +6,14 @@
 /*   By: mabriand <mabriand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/11 17:24:02 by mabriand          #+#    #+#             */
-/*   Updated: 2019/12/12 14:06:48 by mabriand         ###   ########.fr       */
+/*   Updated: 2019/12/12 14:47:14 by mabriand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
 /*
-** Réinitialise un buffer de en supprimant les caractères avant '\n' inclu.
+** Réinitialise un buffer en supprimant les caractères avant '\n' inclu.
 ** =========
 ** #1 : la position de '\n' dans le buffer ou -1 s'il n'y est pas.
 ** #2 : un buffer.
@@ -67,7 +67,7 @@ char	*ft_create_line(char *str, char **line)
 ** la supprime du buffer, puis rempli line en appliquand ft_create_line.
 ** Sinon elle rempli directement line.
 ** =========
-** #1 : un pointeur sur une chaine de caractère.
+** #1 : un pointeur sur une chaine de caractères.
 ** #2 : un buffer pour read().
 ** #3 : la position de '\n' dans le buffer ou -1 s'il n'y est pas.
 ** #4 : le nbr d'octets lus par read().
